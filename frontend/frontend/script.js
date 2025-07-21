@@ -1,4 +1,4 @@
-fetch('https://your-replit-or-server-url/videos')
+fetch('https://farlix-backend.<your-username>.repl.co')
   .then(response => response.json())
   .then(data => {
     const list = document.getElementById("videoList");
